@@ -9,7 +9,7 @@
   --background-color: black;
   --stroke-color: gray;
   --surface-color: rgba(255, 255, 255, 0.1);
-  --switch-bg-url: url(./.vscode/moon-stars.svg);
+  --switch-bg-url: url(.vscode/moon-stars.svg);
   --background-color1: black;
 }
 
@@ -18,7 +18,7 @@
   --background-color: whitesmoke;
   --stroke-color: black;
   --surface-color: rgba(255, 255, 255, 0.1);
-  --switch-bg-url: url(./.vscode/Sun.svg);
+  --switch-bg-url: url(.vscode/Sun.svg);
   --background-color1: whitesmoke;
   --colorborder: 2px solid black;
 }
