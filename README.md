@@ -1,52 +1,76 @@
-<h1 align="center"> DevLinks </h1>
+<!doctype html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./avatarhe.png"/>
+        <p>Henckel Tec</p>
+      </div>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+      <ul>
+          <li>
+            <a href="https://www.instagram.com/henckeltec/"
+            target="_blank">Página do Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/place/Henckel+Tec/@-29.9019229,-51.234438,980m/data=!3m2!1e3!4b1!4m6!3m5!1s0x9519654f18229723:0x70d3beca54e617d1!8m2!3d-29.9019229!4d-51.2318631!16s%2Fg%2F11yql1jl8s?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank">Página do Google</a>
+            <li>
+              <a href="https://www.linkedin.com/company/henckel-climatiza%C3%A7%C3%A3o"
+              target="_blank">Página do Linkedin</a>
+            </li>
+            <li>
+              <a 
+            href="https://w.app/pif7ld"
+            target="_blank">Entre em Contato pelo WhatsApp</a>
+            </li>
 
-<br>
+          </li>
+        </ul>
+        <div id="social-links">
+          <a href="https:www.instagram.com/henckeltec" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5551989750125&text=Ol%C3%A1+vim+pela+internet" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="https://www.linkedin.com/company/henckel-climatiza%C3%A7%C3%A3o" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a> 
+          <a href="https://www.google.com/maps/place/Henckel+Tec/@-29.9019229,-51.234438,980m/data=!3m2!1e3!4b1!4m6!3m5!1s0x9519654f18229723:0x70d3beca54e617d1!8m2!3d-29.9019229!4d-51.2318631!16s%2Fg%2F11yql1jl8s?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank"> 
+            <ion-icon name="locate-outline"></ion-icon>
+          </a>
+        </div>
+    </div>
 
-<p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p>
+    <footer>
+Feito por <a href="http:www.intagram.com/gustavo.henckel">Gustavo Henckel</a>
 
-## 🚀 Tecnologias
+    </footer>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+</script>
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
-
-## 💻 Projeto
-
-O DevLinks é um agregador de links para usar como cartão de visitas online.
-
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+<script src="./script.js"></script>
+  </body>
+</html>
